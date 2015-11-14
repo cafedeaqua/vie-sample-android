@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <Button
+                android:id="@+id/sound1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="r"/>
+
+            <Button
+                android:id="@+id/sound2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="g"/>
+
+            <Button
+                android:id="@+id/sound3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b"/>
+
+            <Button
+                android:id="@+id/sound4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="y"/>
+
+            <Button
+                android:id="@+id/sound5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="w"/>
+
+            <Button
+                android:id="@+id/sound6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c"/>
+
+            <Button
+                android:id="@+id/sound_red"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="red:send to module"/>
+
+            <Button
+                android:id="@+id/sound_green"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="greeen:send to module"/>
+
+            <Button
+                android:id="@+id/sound_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="blue:send to module"/>
+
+            <Button
+                android:id="@+id/sound_yellow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="yellow:send to module"/>
+
+            <Button
+                android:id="@+id/sound_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="white:send to module"/>
+
+            <Button
+                android:id="@+id/sound_clear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="clear:send to module"/>
+
+            <Button
+                android:id="@+id/sound_around_led"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Around LED start"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+
